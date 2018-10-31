@@ -1,4 +1,186 @@
-*{
+* {
   margin:0;
   padding: 0;
+  font-family: 'Nunito', 'sans-serif';
+}
+
+.wrapper {
+  margin: auto;
+  width: 800px;
+  height: 100%;
+}
+
+.top-nav {
+  height: 50px;
+  width: 100%;
+  background-color: #111;
+  color: #fff;
+  padding: 20px 0 0;
+  text-align: center;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.nav {
+  padding: 40px 50px 105px 50px;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.right-nav {
+margin-top: -35px;
+}
+
+.right-nav li { 
+ display: inline;
+ float: right;
+ margin-right:20px;
+ font-weight: bold;
+ font-size: 25px; 
+}
+
+.center-h {
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 145px;
+}
+
+.arrow-down img {
+  height: 30px;
+  transform: rotate(90deg);
+  margin: auto;
+  display: block;
+  margin-bottom: 45px;
+}
+
+.img1 img {
+  width: 800px;
+}
+
+.fomu { 
+  padding: 30px 3px 55px 3px;
+}
+
+.fomu li:first-child {
+  display: inline;
+  float: left;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.fomu li:last-child {
+  width:30px;
+  display: inline;
+  float: right;
+}
+
+.img2 img{
+  width: 800px;
+}
+
+.img3 img {
+  width: 800px;
+}
+
+.gray-block {
+  background-color: lightgray;
+  padding: 35px 25px 55px 25px;
+  margin-bottom: 50px;
+}
+
+.gray-block li{
+  display: inline;
+  }
+
+.gray-block li:first-child {
+  float: left;
+  font-weight:bold;
+}
+
+.gray-block li:last-child {
+  float: right;
+  width: 30px;
+}
+
+.black-block {
+  padding: 40px 25px 30px 25px;
+  width: 800px;
+  height:490px;
+  background-color:#111;
+  color:#fff;
+  margin-bottom: 50px;
+}
+
+.black-block h2{
+  font-size:50px;
+}
+
+.black-block li:first-child {
+  display: inline;
+  float: left;
+  font-size:20px;
+}
+
+.black-block li:last-child {
+  display: inline;
+  float: right;
+}
+
+.black-block ul{
+  margin-top: 320px;
+}
+
+.black-block2 {
+  padding: 40px 25px 30px 25px;
+  width: 800px;
+  height:360px;
+  background-color:#111;
+  color:#fff;
+}
+
+.black-block2 h2{
+  font-size:50px;
+}
+
+.black-block2 li:first-child {
+  display: inline;
+  float: left;
+  font-size:20px;
+}
+
+.black-block2 li:last-child {
+  display: inline;
+  float: right;
+}
+
+.black-block2 ul{
+  margin-top: 260px;
+}
+
+.policy{
+  text-align:center;
+  font-weight: bold;
+}
+
+.copy li {
+  display: inline;
+}
+
+.copy li:first-child{
+  float: left;
+  font-weight: bold;
+}
+
+.copy li:last-child{
+  float: right;
+  font-weight: bold;
+}
+
+.copy li a{
+  color: #111;
 }
