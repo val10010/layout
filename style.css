@@ -12,11 +12,13 @@
 
 .top-nav {
   height: 50px;
-  width: 100%;
+  width: 800px;
   background-color: #111;
   color: #fff;
   padding: 20px 0 0;
   text-align: center;
+  position: fixed;
+  top: 0;
 }
 
 .color-white {
@@ -24,7 +26,10 @@
 }
 
 .nav {
-  padding: 40px 50px 105px 50px;
+  padding: 40px 50px 105px 10px;
+  position: fixed;
+  width: 800px;
+  top: 50px;
 }
 
 .logo {
@@ -48,6 +53,7 @@ margin-top: -35px;
   text-align: center;
   font-size: 45px;
   margin-bottom: 145px;
+  margin-top: 210px;
 }
 
 .arrow-down img {
